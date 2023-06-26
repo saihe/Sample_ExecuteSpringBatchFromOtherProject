@@ -1,0 +1,3 @@
+rootProject.name = 'SpringBatch'
+include ':External'
+project(':External').projectDir = new File(settingsDir, '../SpringBootBatch/')
